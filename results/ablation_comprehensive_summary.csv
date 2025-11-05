@@ -1,0 +1,6 @@
+experiment,bleu,loss,params
+baseline,19.752909301112684,2.3724835089274814,"{'use_relpos': True, 'dropout': 0.1, 'use_gelu': True, 'num_layers': 4}"
+no_relpos,11.170458199835211,3.0732102734701976,"{'use_relpos': False, 'dropout': 0.1, 'use_gelu': True, 'num_layers': 4}"
+no_dropout,19.30350988468437,2.3500050646918162,"{'use_relpos': True, 'dropout': 0.0, 'use_gelu': True, 'num_layers': 4}"
+no_gelu,19.141060917781207,2.466286608151027,"{'use_relpos': True, 'dropout': 0.1, 'use_gelu': False, 'num_layers': 4}"
+shallow,15.945234022300165,2.78973160471235,"{'use_relpos': True, 'dropout': 0.1, 'use_gelu': True, 'num_layers': 2}"
